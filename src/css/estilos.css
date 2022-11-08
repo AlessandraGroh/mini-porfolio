@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-image: url(../imagens/triangle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: "VT323", monospace;
+    color: #f3f3f3;
+    font-size: 18px;
+    padding: 30px
+}
+
+.cartao{
+    background-color: #070d12;
+    width: 380px;
+    border: 3px solid #e126d9;
+    border-radius: 10px;
+    overflow: hidden;
+   /*...filter:  box-shadow: rgba(220, 210, 210, 0.865) 0px 5px 15px;
+    drop-shadow(0 0 0.4rem white);....*/
+    
+}
+
+.abas img{
+    width: 30px;
+}
+
+.cartao .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartao .minhas-informacoes img{
+    width: 96px;
+    height: 96px;
+    gap: 10px;
+}
+
+.cartao .minhas-informacoes img{
+    border-radius: 66px;
+    border:3px solid #5e0c7e;
+    width: 130px;
+    height: 130px;
+}
+
+.cartao .minhas-informacoes .cargo{
+    font-size: 20px;
+    color: #b8bbc5
+}
+
+.cartao .conteudo{
+    /*aqui estava cor vermelha*/
+    margin-top: 15px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+ cursor: pointer;  
+ transition: background-color 0.2s ease-in-out; 
+}
+
+.cartao .abas .aba.selecionado{
+    background-color: #262626;
+}
+
+.cartao .informacoes-abas{
+    background-color: #262626;
+}
+
+.cartao .abas .aba:hover{
+    background-color: #414141;
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado{
+    display:block;
+}
+
+.informacoes-abas .sub-title{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+} 
+
+.informacoes-abas .descricao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.informacoes-abas .descricao span{
+    color:#c071d8
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-height: 180px;
+    overflow-y: auto;
+    align-items: center;
+}
+
+.redes-sociais li a{
+    background-color: #5e0c7e;
+    width: 250px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.redes-sociais .curriculo{
+    color:rgb(247, 247, 247);
+    border:3px solid #c2279e;
+    background-color: #c2279e;
+    
+}
+
+.redes-sociais .linkedin{
+    color: rgb(247, 247, 247);
+    background-color: rgb(57, 121, 217);
+}
+
+.redes-sociais .github{
+    color: rgb(247, 247, 247);
+    background-color: #757373;
+}
+
+.redes-sociais li a:hover{
+    opacity: 0.8;
+}

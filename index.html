@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/rolagem.css">
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <title>Meu Mini Portfólio</title>
+</head>
+
+<body>
+  <main class="cartao">
+    <div class="minhas-informacoes">
+      <img src="./src/imagens/fototranca.jpg" alt="foto de perfil" />
+      <h1 class="nome">Alessandra Groh</h1>
+      <h2 class="cargo">Futura Dev.Jr </h2>
+    </div>
+
+    <div class="conteudo">
+      <ul class="abas">
+        <li class="aba selecionado" id="sobre-mim">
+          <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim" />
+        </li>
+        <li class="aba" id="minhas-redes">
+          <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais" />
+        </li>
+      </ul>
+
+      <div class="informacoes-abas">
+        <div class="informacao selecionado" id="informacao-sobre-mim">
+          <h3 class="sub-titulo">Sobre</h3>
+          <br>
+
+          <div class="descricao">
+            <p>Oi! sou a Ale, seja bem-vindo(a).</p><br>
+
+            <p>
+              Com o crescimento no setor de Tecnologia, decidi mudar de área! (Sou formada em Direito. Comecei a estudar
+              programação Web, no momento estou finalizando os estudos em
+              <span>HTML, CSS e JavaScript</span>, em sequência finalizar <span>React</span>.
+            </p>
+            <br>
+            <p>Preciso colocar em prática tudo que tenho estudado nos últimos meses, e aprender muito mais para
+              descobrir em qual área da tecnologia vou seguir, me sinto preparada para iniciar nas vagas como Dev Jr.
+            </p>
+            <br>
+            <p>
+              Sou uma entusiasta das tecnologias emergentes, I.A, Blockchain, criptos e muito mais.</p>
+            <br>
+            <p>
+
+              <span>Obs: Esse é meu primeiro repositório </span> (segredo ok?!)
+            </p>
+          </div>
+        </div>
+
+        <div class="informacao" id="informacao-minhas-redes">
+          <h3 class="sub-titulo">Minhas redes</h3><br>
+
+          <ul class="redes-sociais">
+            <li>
+              <a href="" target="_blank" class="curriculo">Currículo</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/alessandra-groh-02a5a7132" target="_blank"
+                class="linkedin">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/alessandragroh" target="_blank" class="github">GitHub</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
+
+<!--Se quiser adicionar uma terceira aba, coloca as linhas e alteras os nomes
+    altera a ID e criar outra DIV com as infos e id= informacao-meus-projetos
+          <li class="aba" id="sobre-mim">
+            <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais" />
+          </li>-->
